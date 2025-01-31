@@ -28,7 +28,16 @@ const Contact = () => {
             <Banner />
             <Wrapper>
                 <Typography variant="h3">Getting in touch is easy!</Typography>    
-                
+                <Text variant="h5">
+                    Reach out to me on <br />
+                    <Link href="" color="inherit" target="_blank">
+                        <Instagram/>
+                    </Link>
+                    or send me an Email 
+                    <Link href="" target="_blank" color="inherit">
+                        <Email />
+                    </Link>.
+                </Text>
             </Wrapper>
         </Box>
     );
